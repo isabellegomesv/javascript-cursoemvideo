@@ -1,0 +1,45 @@
+body {
+    background: rgb(28, 191, 197);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.300);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+img {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(30, 95, 180);
+}
+
+li {
+    list-style-type: none;
+}

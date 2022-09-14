@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DETRAN</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin: 10px 20px 10px 15px;
+            
+        }
+        h1 {
+            width: 600px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            background: rgb(46, 112, 255);
+            color: whitesmoke;
+            border: 1px solid rgb(22, 17, 90);
+            border-radius: 15px;
+        }
+
+        input#txtvel {
+            width: 80px; 
+        }
+
+        div.estilo {
+            width: 560px;
+            height: 300px;
+            background-color: rgb(231, 227, 227);
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
+        }
+
+        p {
+            padding: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistemas de Multas</h1>
+    <div class="estilo">Velocidade do carro: <input type="number" name="txtvel" id="txtvel"> Km/h
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="multa"></div>
+    </div>
+    <script>
+        function calcular() {
+            var txtv = window.document.getElementById('txtvel')
+            var multa = window.document.getElementById('multa')
+            var vel = Number(txtv.value)
+            multa.innerHTML = `<p>A sua velocidade atual é de <strong>${vel}Km/h</strong>.</p>`
+            if (vel > 60) {
+                multa.innerHTML += '<p>Você ultrapassou o limite de 60Km/h. <strong>MULTADO!</strong></p>'
+            }
+            multa.innerHTML += `<p>Dirija sempre com cinto de segurança!</p>`
+        }
+
+    </script>
+</body>
+</html>

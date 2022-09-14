@@ -1,0 +1,55 @@
+body {
+    background: rgb(28, 191, 197);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.300);
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.781);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+}
+
+img#icone-github {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(130, 184, 255);
+}
+
+li {
+    list-style-type: none;
+}
