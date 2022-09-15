@@ -1,5 +1,5 @@
 # Curso de JavaScript
-Exercícios realizados durante o curso de JavaScript disponibilizado pelo Curso em Vídeo e patrocinado pelo Google. [Clique aqui](https://www.cursoemvideo.com/curso/javascript/) caso queira assistir e aprender também :nerd_face:.
+Exercícios realizados durante o curso de JavaScript disponibilizado pelo Curso em Vídeo e patrocinado pelo Google. [Clique aqui](https://www.cursoemvideo.com/curso/javascript/) caso queira assistir e aprender também.
 
 ## O que foi aprendido?
 - DOM
