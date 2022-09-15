@@ -7,6 +7,7 @@ Exercícios realizados durante o curso de JavaScript disponibilizado pelo Curso 
 - for, while, do while
 - functions
 - arrays
+- objetos
 
 ## Exercicios realizados
 1. [Hora do Dia](https://github.com/isabellegomesv/javascript-cursoemvideo/tree/master/aula012-ex/ex014) - Esse exercício que tem como objetivo interagir com o sistema, utilizando o JavaScript para mudar o background do site e a imagem conforme a hora passa.
